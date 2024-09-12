@@ -1,0 +1,3 @@
+rootProject.name = "SimpleChatAutoReplyApp"
+include ':app'
+include ':SelfSDK'

@@ -1,0 +1,24 @@
+//配置project的全局参数，以便更加方便管理,不要随意修改
+ext {
+    java = [
+            sourceCompatibility: JavaVersion.VERSION_1_8,
+            targetCompatibility: JavaVersion.VERSION_1_8
+    ]
+
+    android = [
+            compileSdkVersion: 30,
+            buildToolsVersion: '25.0.1',
+            applicationId    : 'com.migu.miguaimusictest',
+            minSdkVersion    : 19,
+            targetSdkVersion : 30,
+            versionCode      : 1,
+            versionName      : '1.0.0'
+    ]
+
+    dependencies = [
+            "com.android.support:support-v4"  : 'com.android.support:support-v4:25.0.1',
+            "com.android.support:support-v13" : 'com.android.support:support-v13:25.0.1',
+            "com.android.support:appcompat-v7": "com.android.support:appcompat-v7:25.1.1",
+            "com.android.support:design"      : 'com.android.support:design:25.0.1',
+    ]
+}
